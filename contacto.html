@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF_8">
+        <title>contacto - checho ediciones</title>
+        <link rel="stylesheet" href="reset.css"> 
+        <link rel="stylesheet" href="productos.css">
+        <link rel="stylesheet" href="contacto.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="caja">
+                <h1><img src="img/icon_video-play.png" alt="Imagen de reproducir video"></h1>
+                <nav>
+                    <ul >
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>                            
+                    </ul>                    
+                </nav>
+            </div> 
+        </header>
+
+
+        <main>
+            <form>
+                
+                <label for="nombreapellido">Nombre y apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="Telefono">Telefono</label>
+                <input type="tel" id="Telefono" class="input-padron" required placeholder="+57 xxx xxx xx xx">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+                <fieldset>
+
+                    <legend>¿Como le gustaria que l@ contactemos?</legend>
+
+                    <label for="radio-email"><input name="contacto" type="radio" value="email" id="radio-email">Email</label>
+    
+                    <label for="radio-Telefono"><input name="contacto" type="radio" value="telefono" id="radio-telefono">Telefono</label>
+    
+                    <label for="radio-Whatsapp"><input name="contacto" type="radio" value="Whatsapp" id="radio-Whatsapp" checked>Whatsapp</label>
+     
+                </fieldset>
+
+                
+                <label class="checkbox"><input type="checkbox" checked>Le gustaria resivir novedades y contenido de sergio edition</label>
+
+                <input type="submit" value="Enviar Formulario" class="enviar">
+
+            </form>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Disponible</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>14h - 20h</td>
+                    </tr>
+    
+                    <tr>
+                        <td>miercoles</td>
+                        <td>14h - 20h</td>
+                    </tr>
+    
+                    <tr>
+                        <td>viernes</td>
+                        <td>14h - 20h</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Sabado</td>
+                        <td>8h - 20h</td>
+                    </tr> 
+                </tbody>
+            </table>
+
+        </main>
+
+        <footer>
+            <img class="imagen_pie_de_pagina" src="img/Logo de edicion.webp" alt="Logo">
+            <p class="copyright">&copy Copyright Sergio Edition - 2024</p>
+
+        </footer>
+
+
+    </body>
+
+
+</html>

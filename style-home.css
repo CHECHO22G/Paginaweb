@@ -1,0 +1,97 @@
+.intro {
+    background: #CCCCCC;
+    padding: 10px;
+}
+
+#banner {
+    width: 50%;
+    margin: 20px auto;
+
+}
+
+#mision {
+    font-size: 20 px;
+    color:purple;
+    text-align: center;
+    padding: 20px;
+}
+
+#titulo {
+    text-align: center;
+    color: #5934df;
+}
+
+
+.items {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.mensaje {
+    background: #6877ff;
+    text-align: center;
+}
+
+.tareas {
+    background: #9b8ada;
+    text-align: center;
+    padding: 20px;
+}
+
+.proyectos{
+    background: #4eb5d4;
+    text-align: center;
+    padding: 20px;
+}
+
+.ideas{
+    background: #8c50c4;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#imagen1 {
+    width: 50%;
+}
+
+header {
+    background-color: #b96df7;
+    padding: 20px 0;
+}
+
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 55px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(0, 255, 55);
+    text-decoration: underline;
+}
